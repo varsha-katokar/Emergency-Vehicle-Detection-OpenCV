@@ -11,6 +11,7 @@ This project detects emergency vehicles such as Ambulance, Fire Truck, and Polic
 - Detects Police Vehicle (Red + Blue siren light)
 - GUI-based video upload using Tkinter
 - Supports MP4 video input
+- Supports real-time emergency vehicle detection using webcam
 
 ## Technologies Used
 
@@ -34,11 +35,15 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-Run program:
+Run GUI-based detection:
 
-python emergency_vehicle_detector.py
+python emergency_vehicle_detector_gui.py
 
-Upload a video file using the GUI and detection will start.
+Run webcam-based real-time detection:
+
+python webcam_detect.py
+
+Upload a video file using the GUI or use webcam detection for live classification.
 
 ## Output
 
